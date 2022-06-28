@@ -1,2 +1,2 @@
 # PBFT
-Practical Byzantine Fault Tolerance Implement in Golang
+Practical Byzantine Fault Tolerance Consensus Alogrithm Implement in Golang
