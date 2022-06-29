@@ -11,7 +11,7 @@ import (
 // ConsensusNode 共识节点结构体
 type ConsensusNode struct {
 	//日志打印器
-	Logger zap.Logger
+	Logger *zap.Logger
 	//节点角色，Primary、follower、seed
 	Role string
 	//视图编号，主节点无故障则保持不变
